@@ -189,11 +189,14 @@ public class Main {
         System.out.println("******************************************************************");
 
         Delivery[] objects = new Delivery[5];
-        objects[0]=new Delivery("Nikhil", "Alpha - 1", "Pune", "12938", "928492123", 1);
-        objects[1]=new Delivery("Akhil", "Ambegaon", "Bareilly", "32421", "3453453345", 2);
-        objects[2]=new Delivery("Madhav", "Rampur Garden", "Rampur", "34534", "34345345", 1);
-        objects[3]=new Delivery("Nilesh", "Raje chowk", "Delhi", "32543", "34324321", 2);
-        objects[4]=new Delivery("Kunal", "Green Park", "Kolkata", "56354", "867867867", 1);
+        objects[0]=new Delivery("Smitanshu", "Ashok Nagar", "Pune", "411033", "9823852599", 1);
+        objects[1]=new Delivery("Ashish", "Kalewadi", "Pune", "411033", "1234567890", 2);
+        objects[2]=new Delivery("Samrat", "Bhumkar chowk", "Pune", "411034", "1234567890", 1);
+        objects[3]=new Delivery("Nikita", "Ambedkar Chowk", "Amravati", "411005", "1234567890", 2);
+        objects[4]=new Delivery("Triveni", "Jawahar Colony", "Pulgaon", "411005", "1234567890", 1);
+
+
+        
 
         for(Delivery obj : objects)
         {
